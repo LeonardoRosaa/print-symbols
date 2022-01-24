@@ -15,4 +15,10 @@ class PrintSymbols {
   static const error = PrintSymbols('⛔');
 }
 
-String symbol(PrintSymbols info, String message) => '${info.value} $message';
+/// Does make a String with [symbol] and [message] parameters
+/// 
+/// ```dart
+/// '💡 I did this String'
+/// '✅ String checked'
+/// ```
+String symbol(PrintSymbols symbol, String message) => '${symbol.value} $message';
