@@ -1,5 +1,4 @@
 class PrintSymbols {
-
   final String _value;
 
   const PrintSymbols(String value) : _value = value;
@@ -16,9 +15,10 @@ class PrintSymbols {
 }
 
 /// Does make a String with [symbol] and [message] parameters
-/// 
+///
 /// ```dart
 /// '💡 I did this String'
 /// '✅ String checked'
 /// ```
-String symbol(PrintSymbols symbol, String message) => '${symbol.value} $message';
+String symbol(PrintSymbols symbol, String message) =>
+    '${symbol.value} $message';
